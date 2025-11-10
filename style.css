@@ -1,0 +1,101 @@
+/* Configuração padrão do site */
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgb(43, 137, 180);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu */
+nav {
+    background-color: blue;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Bloco azul */
+.bloco-azul {
+    background-color: white;
+    color: blue;
+    width: 50px;
+    height: 80px;
+    border: 5px solid blue;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+/* Bloco branco */
+.bloco-branco {
+     background-color: white;
+    color: blue;
+    width: 50px;
+    height: 80px;
+    border: 5px solid blue;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+/* Dois textos lado a lado */
+.duas-colunas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.duas-colunas div {
+    width: 45%;
+}
+
+/* Formulários */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    max-width: 350px;
+    margin: 50px auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+}
