@@ -4,51 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seletor de Data</title>
-    <style>
-        body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-      background-color: #a3a3a3;
-        }
-
-        nav{
-      background-color: #012c0a;
-      padding: 15px;
-    }
-        
-    nav a {
-      color: rgb(5, 5, 5);
-      text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      margin-top: 50px;
-    }
-
-    input[type="date"] {
-      padding: 10px;
-      font-size: 16px;
-      border-radius: 5px;
-      border: 1px solid #969595;
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <nav>
-     <a href="index.html">Voltar ao menu</a>
-     </nav>
+    <header>
+    <h1>Seleção de Data</h1>
+    </header>
 
-     <main>
-     <h2>Selecione uma data:</h2>
-     <input type="date">
-     </main>
+    <nav>
+    <a href="index.html">Menu</a>
+    <a href="calendario.html">Calendário</a>
+    <a href="genero.html">Gênero</a>
+    <a href="email.html">Email</a>
+    <a href="senha.html">Senha</a>
+    <a href="numero.html">Número</a>
+    <a href="imagem.html">Imagem</a>
+    </nav>
+
+    <main>
+    <form>
+    <label for="data">Escolha uma data:</label>
+    <input type="date" id="data" name="data">
+    <button type="submit">Enviar</button>
+    </form>
+    </main>
+
+    <br>
+    <a href="index.html" class="Voltar">Voltar</a>
 </body>
 </html>

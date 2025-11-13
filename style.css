@@ -1,23 +1,20 @@
-/* Configuração padrão do site */
 body {
-    background-color: white;
+    background-color: rgb(214, 235, 241);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     color: black;
 }
 
-/* Cabeçalho */
 header {
-    background-color: rgb(43, 137, 180);
+    background-color: rgb(47,79,79);
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-/* Menu */
 nav {
-    background-color: blue;
+    background-color: rgb(0,0,0);
     padding: 12px;
     display: flex;
     justify-content: center;
@@ -34,31 +31,28 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Bloco azul */
 .bloco-azul {
-    background-color: white;
-    color: blue;
+    background-color: rgb(47,79,79);
+    color: white;
     width: 50px;
     height: 80px;
-    border: 5px solid blue;
+    border: 3px solid rgb(0,0,0);
     padding: 15px;
-    margin: 20px;
-    border-radius: 7px;
+    margin: 30px;
+    border-radius: 5px;
 }
 
-/* Bloco branco */
 .bloco-branco {
-     background-color: white;
-    color: blue;
+    background-color: rgb(47,79,79);
+    color: white;
     width: 50px;
     height: 80px;
-    border: 5px solid blue;
+    border: 3px solid rgb(0,0,0);
     padding: 15px;
-    margin: 20px;
-    border-radius: 7px;
+    margin: 30px;
+    border-radius: 5px;
 }
 
-/* Dois textos lado a lado */
 .duas-colunas {
     display: flex;
     justify-content: space-around;
@@ -69,19 +63,17 @@ nav a:hover {
     width: 45%;
 }
 
-/* Formulários */
 form {
-    background-color: white;
     padding: 25px;
     border-radius: 10px;
-    border: 2px solid blue;
+    border: 2px solid black;
     max-width: 350px;
     margin: 50px auto;
 }
 
 input, select {
-    width: 100%;
-    padding: 10px;
+    width: 50%;
+    padding: 50px;
     margin-top: 12px;
     border-radius: 6px;
     border: 1px solid #000;
@@ -97,5 +89,41 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: blue;
+    background-color: rgb(26, 39, 85);
 }
+
+form{
+    background-color: rgb(47,79,79);
+}
+
+label{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2.5%;
+    width: 200px;
+    background-color: white;
+}
+
+.Voltar{
+    color: #000;
+    margin: 820px;
+    margin-top: 10px;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 0.2s;
+}
+
+.Voltar:hover{
+    text-decoration-color: black;
+}
+
+
+
+
+
